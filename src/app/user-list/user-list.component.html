@@ -1,0 +1,5 @@
+<ul class="list-group m-3">
+   <li class="list-group-item" *ngFor="let user of users">
+    <img src="{{user.picture.thumbnail}}" class="mr-2" alt=""> {{ user.name.first }} {{ user.name.last }}
+   </li>
+</ul>
